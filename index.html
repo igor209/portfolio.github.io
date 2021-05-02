@@ -39,6 +39,19 @@
         padding: 5px 10px;
         border-radius: 20px;
       }
+      #listacontato{
+        list-style: none;
+      }
+      #listacontato li{
+        margin: 10px 10px 4px 0;
+        display: inline-block;
+      }
+      #listacontato li img{
+        margin: 0 5px 0 0;
+      }
+      #contatorightsobre li img{
+        margin: 0 5px 0 0;
+      }
     </style>
   </head>
   <body>
@@ -49,15 +62,14 @@
           <div class="row" _mstvisible="2">
             <div class="col-sm-8 col-md-7 py-4" _mstvisible="3">
               <h4 class="text-white" _msthash="912184" _msttexthash="62738" _mstvisible="4">Sobre</h4>
-              <p class="text-muted" _msthash="889070" _msttexthash="38883923" _mstvisible="4">Adicione algumas informações sobre o álbum abaixo, o autor ou qualquer outro contexto de fundo. Faça algumas frases longas para que as pessoas possam pegar algumas notícias informativas. Em seguida, vincule-os a alguns sites de redes sociais ou informações de contato.</p>
+              <p class="text-muted" _msthash="889070" _msttexthash="38883923" _mstvisible="4">Olá me chamo Igor tenho 20 anos e Sou estudante de programação voltada para o desenvolvimento web, meus conhecimentos englobam programação Front-end e Back- end. Confira abaixo alguns dos meu projetos </p>
             </div>
             <div class="col-sm-4 offset-md-1 py-4" _mstvisible="3">
               <h4 class="text-white" _msthash="912652" _msttexthash="99229" _mstvisible="4">Contato</h4>
-              <ul class="list-unstyled" _mstvisible="4">
-                <li _mstvisible="5"><a href="#" class="text-white" _msthash="1175928" _msttexthash="234065" _mstvisible="6">Intagram</a></li>
-                <li _mstvisible="5"><a href="#" class="text-white" _msthash="1176526" _msttexthash="250536" _mstvisible="6">Facebook</a></li>
-                <li _mstvisible="5"><a href="#" class="text-white" _msthash="1177124" _msttexthash="271024" _mstvisible="6">Gmail</a></li>
-                <li _mstvisible="5"><a href="#" class="text-white" _msthash="1177124" _msttexthash="271024" _mstvisible="6">Linkedin</a></li>
+              <ul class="list-unstyled" _mstvisible="4" id="contatorightsobre">
+                <li _mstvisible="5"><img src="img/instagramlogo.svg" width="20" height="20"><a href="https://www.instagram.com/igorsilva0_0/" class="text-white" _msthash="1175928" _msttexthash="234065" _mstvisible="6">Intagram</a></li>
+                <li _mstvisible="5"><img src="img/facebooklogo.svg" width="20" height="20"><a href="https://www.facebook.com/profile.php?id=100055257818770" class="text-white" _msthash="1176526" _msttexthash="250536" _mstvisible="6">Facebook</a></li>
+                <li _mstvisible="5"><img src="img/linkedinlogo.svg" width="20" height="20"><a href="https://www.linkedin.com/in/igor-silva-439b2b17a/" class="text-white" _msthash="1177124" _msttexthash="271024" _mstvisible="6">Linkedin</a></li>
               </ul>
             </div>
           </div>
@@ -107,7 +119,7 @@
 
         <div class="container">
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-            <div class="col">
+            <div class="col" style="padding-bottom: 30px;">
               <div class="card shadow-sm">
                 <img src="img/estaciologo.jfif" alt="">
                 <div class="card-body">
@@ -121,7 +133,7 @@
           </div>
         </div>
 
-        <h3 class="nomesopcoes">Projetos</h3>
+        <!-- <h3 class="nomesopcoes">Projetos</h3>
           
         <div class="container">
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
@@ -137,7 +149,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
       </div>
       </main>
@@ -148,11 +160,11 @@
             <a href="#" _msthash="518908" _msttexthash="236444">De volta ao topo</a>
           </p>
           <strong>Contato:</strong>
-          <ul>
-            <li>Instagram</li>
-            <li>Facebook</li>
-            <li>Linkedin</li>
-            <li>Gmail</li>
+          <ul id="listacontato">
+            <li><img src="img/instagramlogo.svg" width="20" height="20"><a href="https://www.instagram.com/igorsilva0_0/">Instagram</a></li>
+            <li><img src="img/facebooklogo.svg" width="20" height="20"><a href="https://www.facebook.com/profile.php?id=100055257818770">Facebook</a></li>
+            <li><img src="img/linkedinlogo.svg" width="20" height="20"><a href="https://www.linkedin.com/in/igor-silva-439b2b17a/">Linkedin</a></li>
+            <li><img src="img/gmaillogo.svg" width="20" height="20">igor84734@gmail.com</li>
           </ul>
         </div>
       </footer>
