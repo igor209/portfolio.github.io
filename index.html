@@ -1,69 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
-    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js" defer ></script>
     <style>
-        #foto{
-            width: 250px;
-            height: 250px;
-            display: block;
-            margin-top: 20px;
-            margin-left: auto;
-            margin-right: auto;
-            border-radius: 90%;
-        }
-        .nomesopcoes{
-            margin: 0px 0 20px 0;
-            padding: 30px 0 0 0;
-            text-align: center;
-        }
-        .row{
-            display: flex;
-        }
-        .divtecnologias{
-            display: inline;
-        }
-        .divtecnologias img{
-            padding: 10px;
-            border-radius: 30px;
-            width: 100px;
-            height: 100px;
-            
-        }
+      #foto{
+          width: 250px;
+          height: 250px;
+          display: block;
+          margin-top: 20px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 15px;
+          border-radius: 90%;
+      }
+      .nomesopcoes{
+          margin: 0px 0 20px 0;
+          padding: 30px 0 0 0;
+          text-align: center;
+      }
+      .row{
+          display: flex;
+      }
+      .divtecnologias{
+          display: inline;
+      }
+      .divtecnologias img{
+          padding: 10px;
+          width: 100px;
+          height: 100px;      
+      }
+      .status{
+        background-color: rgb(245, 245, 142);
+        padding: 5px 10px;
+        border-radius: 20px;
+      }
     </style>
-</head>
-<body>
-    
+  </head>
+  <body>
     <header>
+
       <div class="bg-dark collapse" id="navbarHeader" _mstvisible="0">
         <div class="container" _mstvisible="1">
           <div class="row" _mstvisible="2">
             <div class="col-sm-8 col-md-7 py-4" _mstvisible="3">
-              <h4 class="text-white" _msthash="912184" _msttexthash="62738" _mstvisible="4">sobre</h4>
+              <h4 class="text-white" _msthash="912184" _msttexthash="62738" _mstvisible="4">Sobre</h4>
               <p class="text-muted" _msthash="889070" _msttexthash="38883923" _mstvisible="4">Adicione algumas informações sobre o álbum abaixo, o autor ou qualquer outro contexto de fundo. Faça algumas frases longas para que as pessoas possam pegar algumas notícias informativas. Em seguida, vincule-os a alguns sites de redes sociais ou informações de contato.</p>
             </div>
             <div class="col-sm-4 offset-md-1 py-4" _mstvisible="3">
-              <h4 class="text-white" _msthash="912652" _msttexthash="99229" _mstvisible="4">contato</h4>
+              <h4 class="text-white" _msthash="912652" _msttexthash="99229" _mstvisible="4">Contato</h4>
               <ul class="list-unstyled" _mstvisible="4">
-                <li _mstvisible="5"><a href="#" class="text-white" _msthash="1175928" _msttexthash="234065" _mstvisible="6">Siga no Twitter</a></li>
-                <li _mstvisible="5"><a href="#" class="text-white" _msthash="1176526" _msttexthash="250536" _mstvisible="6">Como no Facebook</a></li>
-                <li _mstvisible="5"><a href="#" class="text-white" _msthash="1177124" _msttexthash="271024" _mstvisible="6">Me mande um e-mail</a></li>
+                <li _mstvisible="5"><a href="#" class="text-white" _msthash="1175928" _msttexthash="234065" _mstvisible="6">Intagram</a></li>
+                <li _mstvisible="5"><a href="#" class="text-white" _msthash="1176526" _msttexthash="250536" _mstvisible="6">Facebook</a></li>
+                <li _mstvisible="5"><a href="#" class="text-white" _msthash="1177124" _msttexthash="271024" _mstvisible="6">Gmail</a></li>
+                <li _mstvisible="5"><a href="#" class="text-white" _msthash="1177124" _msttexthash="271024" _mstvisible="6">Linkedin</a></li>
               </ul>
             </div>
           </div>
         </div>
       </div>
+
       <div class="navbar navbar-dark bg-dark shadow-sm">
         <div class="container">
           <a href="#" class="navbar-brand d-flex align-items-center">
             <svg xmlns="http://www.w3.org/2000/svg" style="margin: 0 20px 0 0;" width="30" height="30" fill="currentColor" class="bi bi-keyboard" viewBox="0 0 16 16">
-                <path d="M14 5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h12zM2 4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H2z"/>
-                <path d="M13 10.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5zm0-2a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5zm-5 0A.25.25 0 0 1 8.25 8h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5A.25.25 0 0 1 8 8.75v-.5zm2 0a.25.25 0 0 1 .25-.25h1.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-1.5a.25.25 0 0 1-.25-.25v-.5zm1 2a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5zm-5-2A.25.25 0 0 1 6.25 8h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5A.25.25 0 0 1 6 8.75v-.5zm-2 0A.25.25 0 0 1 4.25 8h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5A.25.25 0 0 1 4 8.75v-.5zm-2 0A.25.25 0 0 1 2.25 8h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5A.25.25 0 0 1 2 8.75v-.5zm11-2a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5zm-2 0a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5zm-2 0A.25.25 0 0 1 9.25 6h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5A.25.25 0 0 1 9 6.75v-.5zm-2 0A.25.25 0 0 1 7.25 6h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5A.25.25 0 0 1 7 6.75v-.5zm-2 0A.25.25 0 0 1 5.25 6h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5A.25.25 0 0 1 5 6.75v-.5zm-3 0A.25.25 0 0 1 2.25 6h1.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-1.5A.25.25 0 0 1 2 6.75v-.5zm0 4a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5zm2 0a.25.25 0 0 1 .25-.25h5.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-5.5a.25.25 0 0 1-.25-.25v-.5z"/>
-              </svg>
+              <path d="M14 5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h12zM2 4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H2z"/>
+              <path d="M13 10.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5zm0-2a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5zm-5 0A.25.25 0 0 1 8.25 8h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5A.25.25 0 0 1 8 8.75v-.5zm2 0a.25.25 0 0 1 .25-.25h1.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-1.5a.25.25 0 0 1-.25-.25v-.5zm1 2a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5zm-5-2A.25.25 0 0 1 6.25 8h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5A.25.25 0 0 1 6 8.75v-.5zm-2 0A.25.25 0 0 1 4.25 8h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5A.25.25 0 0 1 4 8.75v-.5zm-2 0A.25.25 0 0 1 2.25 8h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5A.25.25 0 0 1 2 8.75v-.5zm11-2a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5zm-2 0a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5zm-2 0A.25.25 0 0 1 9.25 6h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5A.25.25 0 0 1 9 6.75v-.5zm-2 0A.25.25 0 0 1 7.25 6h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5A.25.25 0 0 1 7 6.75v-.5zm-2 0A.25.25 0 0 1 5.25 6h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5A.25.25 0 0 1 5 6.75v-.5zm-3 0A.25.25 0 0 1 2.25 6h1.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-1.5A.25.25 0 0 1 2 6.75v-.5zm0 4a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5zm2 0a.25.25 0 0 1 .25-.25h5.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-5.5a.25.25 0 0 1-.25-.25v-.5z"/>
+            </svg>
             <strong _msthash="1191411" _msttexthash="73970">IGOR SILVA</strong>
           </a>
           <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Alternar navegação" _mstaria-label="417625">
@@ -71,116 +78,83 @@
           </button>
         </div>
       </div>
+
     </header>
-    
     <main>
-    
+      
       <section class=" text-center container">
         <div class="row">
           <div class="col-lg-6 col-md-8 mx-auto">
             <img id="foto" src="img/foto.jpg" alt="Foto Igor Silva">
             <h1 class="fw-light" _msthash="1142804" _msttexthash="285103">Igor Silva</h1>
-            <p class="lead text-muted" _msthash="1118611" _msttexthash="18221359">Sou Estudante de programação voltada para Web, minhas áreas de conhecimentos são:</p>
+            <p class="lead text-muted" _msthash="1118611" _msttexthash="18221359">Sou Estudante de programação voltada para Web, as principais tecnologias que uso são:</p>
           </div>
         </div>
         <div class="divtecnologias">
-            <img src="javascript.png" alt="" >
-            <img src="nodejs_logo.png" alt="" >
-            <img src="4459321c4e61adc58c584aa00788d148.png" alt="" >
-            <img src="R8e95479da2c5e493b835c8533c2d5ba5.jfif" alt="" >
-            <img src="02Q6yxveinggAu3PomearaV-7.fit_scale.size_1028x578.v_1569481734.jpg" alt="" >
-    
+            <img src="img/htmllogo.svg" alt="logo html" >
+            <img src="img/csslogo.svg" alt="logo css" >
+            <img src="img/bootstraplogo.svg" alt="logo bootstrap" >
+            <img src="img/javascriptlogo.svg" alt="logo javascript" >
+            <img src="img/jquerylogo.svg" alt="logo Jquery" >
+            <img src="img/nodelogo.svg" alt="logo node" >
+            <img src="img/mongodblogo.svg" alt="logo mongoDB" >
         </div>
       </section>
-      
-    
+        
       <div class="album bg-light" id="conteinermain">
+
         <h3 class="nomesopcoes">Cursos e Diplomas</h3>
+
         <div class="container">
-    
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div class="col">
               <div class="card shadow-sm">
-                <img src="img/foto2.jpg" alt="">
+                <img src="img/estaciologo.jfif" alt="">
                 <div class="card-body">
-                  <p class="card-text" _msthash="1893060" _msttexthash="10910796">resumo do curso ou diploma</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <img src="img/foto2.jpg" alt="">
-                <div class="card-body">
-                    <p class="card-text" _msthash="1893060" _msttexthash="10910796">resumo do curso ou diploma</p>
-                  </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <img src="img/foto2.jpg" alt="">
-                <div class="card-body">
-                    <p class="card-text" _msthash="1893060" _msttexthash="10910796">resumo do curso ou diploma</p>
-                  </div>
-              </div>
-            </div>
-        </div>
-    </div>
-        <h3 class="nomesopcoes">Projetos</h3>
-        <div class="container">
-    
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-              <div class="col">
-                <div class="card shadow-sm">
-                    <img src="img/foto2.jpg" alt="">
-                  <div class="card-body">
-                    <p class="card-text" _msthash="1893060" _msttexthash="10910796">resumo do curso ou diploma</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                          <button class="w-100 btn btn-lg btn-primary"  _msthash="712374" _msttexthash="77766">Saber mais</button>
-                      </div>
-                    </div>
+                  <p class="card-text" _msthash="1893060" _msttexthash="10910796">Graduação em sistemas de informação pela Universidade Estácio</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <strong class="status">Status: Cursando (3° Periodo)</strong>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                    <img src="img/foto2.jpg" alt="">
-                  <div class="card-body">
-                      <p class="card-text" _msthash="1893060" _msttexthash="10910796">resumo do curso ou diploma</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                            <button class="w-100 btn btn-lg btn-primary"  _msthash="712374" _msttexthash="77766">Saber mais</button>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                    <img src="img/foto2.jpg" alt="">
-                  <div class="card-body">
-                      <p class="card-text" _msthash="1893060" _msttexthash="10910796">resumo do curso ou diploma</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                            <button class="w-100 btn btn-lg btn-primary"  _msthash="712374" _msttexthash="77766">Saber mais</button>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-              </div>
+            </div>
           </div>
+        </div>
+
+        <h3 class="nomesopcoes">Projetos</h3>
+          
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col" style="padding-bottom: 30px;">
+              <div class="card shadow-sm">
+                <img src="img/foto2.jpg" alt="">
+                <div class="card-body">
+                  <p class="card-text" _msthash="1893060" _msttexthash="10910796">**Resumo do projeto**</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <button class="w-100 btn btn-lg btn-primary"  _msthash="712374" _msttexthash="77766">Saiba mais</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
-    </div>
-    </main>
-    
-    <footer class="text-muted py-5">
-      <div class="container">
-        <p class="float-end mb-1">
-          <a href="#" _msthash="518908" _msttexthash="236444">De volta ao topo</a>
-        </p>
-        <p class="mb-1" _msthash="519311" _msttexthash="3390387">O exemplo do álbum é © Bootstrap, mas baixe e personalize-o para você mesmo!</p>
-        <p class="mb-0" _msthash="519714" _msttexthash="3108677">Novo em Bootstrap? <a href="/" _istranslated="1">Visite a página inicial</a> ou leia nosso <a href="/docs/5.0/getting-started/introduction/" _istranslated="1">guia de início</a>.</p>
-      </div>
-    </footer>
-    </body>
+      </main>
+      
+      <footer class="text-muted" style="padding: 20px 0 0 0;">
+        <div class="container">
+          <p class="float-end mb-1">
+            <a href="#" _msthash="518908" _msttexthash="236444">De volta ao topo</a>
+          </p>
+          <strong>Contato:</strong>
+          <ul>
+            <li>Instagram</li>
+            <li>Facebook</li>
+            <li>Linkedin</li>
+            <li>Gmail</li>
+          </ul>
+        </div>
+      </footer>
+      </body>
 </html>
